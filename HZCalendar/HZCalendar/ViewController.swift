@@ -100,6 +100,12 @@ class ViewController: UIViewController,UITextFieldDelegate {
         return newDate ?? Date()
     }
     
+    
+    @IBAction func calendarViewClick(_ sender: Any) {
+        
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
