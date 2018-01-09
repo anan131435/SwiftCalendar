@@ -9,11 +9,13 @@
 import UIKit
 
 class HZCalendarController: UIViewController {
-
+    var calendarView: HZCalendarView?
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.white
+        self.calendarView = HZCalendarView.init(frame: self.view.bounds)
+        self.calendarView?.setupDataSource()
+        self.view.addSubview(self.calendarView!)
     }
 
     override func didReceiveMemoryWarning() {

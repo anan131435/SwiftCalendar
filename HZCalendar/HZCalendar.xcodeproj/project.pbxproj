@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7328FC9D200452470066F807 /* HZCaledarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7328FC9C200452470066F807 /* HZCaledarCell.swift */; };
 		73888DC32001B6B8009E830C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73888DC22001B6B8009E830C /* AppDelegate.swift */; };
 		73888DC52001B6B8009E830C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73888DC42001B6B8009E830C /* ViewController.swift */; };
 		73888DC82001B6B8009E830C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73888DC62001B6B8009E830C /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7328FC9C200452470066F807 /* HZCaledarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZCaledarCell.swift; sourceTree = "<group>"; };
 		73888DBF2001B6B8009E830C /* HZCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73888DC22001B6B8009E830C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73888DC42001B6B8009E830C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 			children = (
 				73888DE620038568009E830C /* HZUIViewExtension.swift */,
 				73888DE220038481009E830C /* HZCalendarView.swift */,
+				7328FC9C200452470066F807 /* HZCaledarCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			files = (
 				73888DE1200382FC009E830C /* HZMonthModel.swift in Sources */,
 				73888DC52001B6B8009E830C /* ViewController.swift in Sources */,
+				7328FC9D200452470066F807 /* HZCaledarCell.swift in Sources */,
 				73888DE320038481009E830C /* HZCalendarView.swift in Sources */,
 				73888DE5200384FD009E830C /* HZCalendarConfig.swift in Sources */,
 				73888DDD2003771B009E830C /* HZCalendarController.swift in Sources */,
@@ -338,6 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VMTN98C772;
 				INFOPLIST_FILE = HZCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HZ.HZCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VMTN98C772;
 				INFOPLIST_FILE = HZCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HZ.HZCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
