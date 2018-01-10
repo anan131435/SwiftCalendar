@@ -16,7 +16,6 @@
 		73888DD92001B7A0009E830C /* HZDateExtentison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73888DD82001B7A0009E830C /* HZDateExtentison.swift */; };
 		73888DDD2003771B009E830C /* HZCalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73888DDC2003771B009E830C /* HZCalendarController.swift */; };
 		73888DDF2003775D009E830C /* HZDayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73888DDE2003775D009E830C /* HZDayModel.swift */; };
-		73888DE1200382FC009E830C /* HZMonthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73888DE0200382FC009E830C /* HZMonthModel.swift */; };
 		73888DE320038481009E830C /* HZCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73888DE220038481009E830C /* HZCalendarView.swift */; };
 		73888DE5200384FD009E830C /* HZCalendarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73888DE4200384FD009E830C /* HZCalendarConfig.swift */; };
 		73888DE720038568009E830C /* HZUIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73888DE620038568009E830C /* HZUIViewExtension.swift */; };
@@ -34,7 +33,6 @@
 		73888DD82001B7A0009E830C /* HZDateExtentison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZDateExtentison.swift; sourceTree = "<group>"; };
 		73888DDC2003771B009E830C /* HZCalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZCalendarController.swift; sourceTree = "<group>"; };
 		73888DDE2003775D009E830C /* HZDayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZDayModel.swift; sourceTree = "<group>"; };
-		73888DE0200382FC009E830C /* HZMonthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZMonthModel.swift; sourceTree = "<group>"; };
 		73888DE220038481009E830C /* HZCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZCalendarView.swift; sourceTree = "<group>"; };
 		73888DE4200384FD009E830C /* HZCalendarConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZCalendarConfig.swift; sourceTree = "<group>"; };
 		73888DE620038568009E830C /* HZUIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HZUIViewExtension.swift; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 			children = (
 				73888DD82001B7A0009E830C /* HZDateExtentison.swift */,
 				73888DDE2003775D009E830C /* HZDayModel.swift */,
-				73888DE0200382FC009E830C /* HZMonthModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,7 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73888DE1200382FC009E830C /* HZMonthModel.swift in Sources */,
 				73888DC52001B6B8009E830C /* ViewController.swift in Sources */,
 				7328FC9D200452470066F807 /* HZCaledarCell.swift in Sources */,
 				73888DE320038481009E830C /* HZCalendarView.swift in Sources */,

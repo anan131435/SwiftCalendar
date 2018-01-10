@@ -97,19 +97,16 @@ class HZCalendarView: UIView {
     func handleData(){
         self.dayModelsArray.removeAll()
         let lastMonthDate: Date = self.currentDate.lastMonth
-        let currentMonthModel: HZMonthModel = HZMonthModel.init(date: self.currentDate)
-        let lastMonthModel: HZMonthModel = HZMonthModel.init(date: lastMonthDate)
-        let totalDays: Int = currentMonthModel.totalDays
-        let firstWeekDay: Int = currentMonthModel.firstWeekDay
-        
+        let firstWeekDay: Int = currentDate.firstWeekdayInMonth
+         let totalDays: Int = currentDate.totalDaysInthisMonth
         for i in 0..<42{
             let dayModel = HZDayModel.init()
-            dayModel.totalDays = totalDays
-            dayModel.month = currentMonthModel.month
-            dayModel.year = currentMonthModel.year
+            dayModel.totalDays = currentDate.totalDaysInthisMonth
+            dayModel.month = currentDate.month
+            dayModel.year = currentDate.year
             //上个月日期
             if i < firstWeekDay{
-                dayModel.day = lastMonthModel.totalDays - (firstWeekDay - i) + 1
+                dayModel.day = lastMonthDate.totalDaysInthisMonth - (firstWeekDay - i) + 1
                 dayModel.isLastMonth = true
             }
             //当月日期
@@ -122,8 +119,8 @@ class HZCalendarView: UIView {
                 }
             }
             //下月日期
-            if i >= (firstWeekDay + currentMonthModel.totalDays){
-                dayModel.day = i - firstWeekDay - currentMonthModel.totalDays + 1
+            if i >= (firstWeekDay + totalDays){
+                dayModel.day = i - firstWeekDay - totalDays + 1
                 dayModel.isNextMonth = true
             }
             self.dayModelsArray.append(dayModel)
